@@ -1,0 +1,209 @@
+[31-Oct-2014 15:36:38 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/cmzyg1/public_html/animal/admin/lib/connect.php:20
+Stack trace:
+#0 /home/cmzyg1/public_html/animal/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home/cmzyg1/public_html/animal/admin/index.php(2): require_once('/home/cmzyg1/pu...')
+#2 {main}
+  thrown in /home/cmzyg1/public_html/animal/admin/lib/connect.php on line 20
+[31-Oct-2014 15:36:45 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/cmzyg1/public_html/animal/admin/lib/connect.php:20
+Stack trace:
+#0 /home/cmzyg1/public_html/animal/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home/cmzyg1/public_html/animal/admin/index.php(2): require_once('/home/cmzyg1/pu...')
+#2 {main}
+  thrown in /home/cmzyg1/public_html/animal/admin/lib/connect.php on line 20
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(): Failed opening 'includes/navigation.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(includes/list.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(includes/list.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:50 Europe/London] PHP Warning:  include(): Failed opening 'includes/list.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(): Failed opening 'includes/navigation.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(includes/list.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(includes/list.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:53 Europe/London] PHP Warning:  include(): Failed opening 'includes/list.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 12
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(includes/navigation.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(): Failed opening 'includes/navigation.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 20
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(includes/list.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(includes/list.php): failed to open stream: No such file or directory in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[08-Nov-2014 21:56:54 Europe/London] PHP Warning:  include(): Failed opening 'includes/list.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmzyg1/public_html/animal/admin/contact.php on line 60
+[19-Apr-2016 22:12:44 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /home/cmzyg1/public_html/ada/admin/lib/connect.php:20
+Stack trace:
+#0 /home/cmzyg1/public_html/ada/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home/cmzyg1/public_html/ada/admin/login.php(2): require_once('/home/cmzyg1/pu...')
+#2 {main}
+  thrown in /home/cmzyg1/public_html/ada/admin/lib/connect.php on line 20
+[19-Apr-2016 23:14:40 Europe/London] PHP Notice:  Undefined variable: session in /home/cmzyg1/public_html/ada/admin/brands.php on line 66
+[19-Apr-2016 23:14:40 Europe/London] PHP Fatal error:  Call to a member function flashdata() on a non-object in /home/cmzyg1/public_html/ada/admin/brands.php on line 66
+[20-Apr-2016 11:32:38 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cms.categories' doesn't exist' in /home/cmzyg1/public_html/ada/admin/lib/database.class.php:49
+Stack trace:
+#0 /home/cmzyg1/public_html/ada/admin/lib/database.class.php(49): PDOStatement->execute()
+#1 /home/cmzyg1/public_html/ada/admin/core/categories.class.php(22): Database->selectAll('SELECT * FROM c...')
+#2 /home/cmzyg1/public_html/ada/admin/brands.php(10): Categories->get_all_categories()
+#3 {main}
+  thrown in /home/cmzyg1/public_html/ada/admin/lib/database.class.php on line 49
+[20-Apr-2016 11:33:54 Europe/London] PHP Fatal error:  Class 'Brands' not found in /home/cmzyg1/public_html/ada/admin/brands.php on line 8
+[20-Apr-2016 11:34:13 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id' in 'order clause'' in /home/cmzyg1/public_html/ada/admin/lib/database.class.php:49
+Stack trace:
+#0 /home/cmzyg1/public_html/ada/admin/lib/database.class.php(49): PDOStatement->execute()
+#1 /home/cmzyg1/public_html/ada/admin/core/brands.class.php(22): Database->selectAll('SELECT * FROM b...')
+#2 /home/cmzyg1/public_html/ada/admin/brands.php(10): Brands->get_all_brands()
+#3 {main}
+  thrown in /home/cmzyg1/public_html/ada/admin/lib/database.class.php on line 49
+[20-Apr-2016 11:34:59 Europe/London] PHP Notice:  Undefined index: category in /home/cmzyg1/public_html/ada/admin/brands.php on line 130
+[20-Apr-2016 11:34:59 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 130
+[20-Apr-2016 11:34:59 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 130
+[20-Apr-2016 11:36:29 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 130
+[20-Apr-2016 11:37:22 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[20-Apr-2016 11:37:37 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[20-Apr-2016 11:37:37 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[20-Apr-2016 11:38:11 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[20-Apr-2016 16:12:32 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[20-Apr-2016 16:13:35 Europe/London] PHP Fatal error:  Class 'Brands' not found in /home/cmzyg1/public_html/ada/admin/edit-brand.php on line 7
+[20-Apr-2016 16:14:35 Europe/London] PHP Notice:  Undefined variable: cat_array in /home/cmzyg1/public_html/ada/admin/core/brands.class.php on line 30
+[20-Apr-2016 16:14:35 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/cmzyg1/public_html/ada/admin/lib/database.class.php:28
+Stack trace:
+#0 /home/cmzyg1/public_html/ada/admin/lib/database.class.php(28): PDOStatement->execute()
+#1 /home/cmzyg1/public_html/ada/admin/core/brands.class.php(30): Database->select('SELECT * FROM b...', NULL)
+#2 /home/cmzyg1/public_html/ada/admin/edit-brand.php(10): Brands->get_brand_by_id()
+#3 {main}
+  thrown in /home/cmzyg1/public_html/ada/admin/lib/database.class.php on line 28
+[20-Apr-2016 16:20:24 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[20-Apr-2016 16:21:15 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[21-Apr-2016 10:32:39 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[21-Apr-2016 10:32:44 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[21-Apr-2016 10:32:49 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[21-Apr-2016 10:32:52 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[21-Apr-2016 15:47:09 Europe/London] PHP Notice:  Undefined index: id in /home/cmzyg1/public_html/ada/admin/brands.php on line 127
+[30-Apr-2016 19:10:20 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/login.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:10:47 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/login.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:10:51 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/login.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:11:32 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/login.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:11:33 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/login.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:11:37 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/index.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:11:39 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/index.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:16:28 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'zygimanatssimkus'@'localhost' (using password: YES)' in /home/meethelocals/public_html/admin/lib/connect.php:20
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/connect.php(20): PDO->__construct('mysql:host=loca...', 'zygimanatssimku...', 'djkdkdkj^*&&*s')
+#1 /home/meethelocals/public_html/admin/index.php(2): require_once('/home/meetheloc...')
+#2 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/connect.php on line 20
+[30-Apr-2016 19:27:30 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:27:42 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:27:45 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:33:44 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:41:21 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:42:13 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:42:55 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:43:54 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:44:50 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:44:53 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:45:03 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:45:37 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:45:38 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 127
+[30-Apr-2016 19:48:20 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 19:55:24 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 19:55:41 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 19:59:10 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 19:59:50 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 20:01:04 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 20:01:39 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 20:01:42 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 20:01:53 Europe/London] PHP Notice:  Undefined index: id in /home/meethelocals/public_html/admin/brands.php on line 131
+[30-Apr-2016 20:03:15 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'meethelocals.settings' doesn't exist' in /home/meethelocals/public_html/admin/lib/database.class.php:28
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/database.class.php(28): PDOStatement->execute()
+#1 /home/meethelocals/public_html/admin/core/settings.class.php(22): Database->select('SELECT * FROM s...')
+#2 /home/meethelocals/public_html/admin/homepage-settings.php(9): Settings->get_settings()
+#3 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/database.class.php on line 28
+[30-Apr-2016 20:03:18 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'meethelocals.settings' doesn't exist' in /home/meethelocals/public_html/admin/lib/database.class.php:28
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/database.class.php(28): PDOStatement->execute()
+#1 /home/meethelocals/public_html/admin/core/settings.class.php(22): Database->select('SELECT * FROM s...')
+#2 /home/meethelocals/public_html/admin/settings.php(9): Settings->get_settings()
+#3 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/database.class.php on line 28
+[30-Apr-2016 20:11:48 Europe/London] PHP Notice:  Undefined index: brand_id in /home/meethelocals/public_html/admin/lib/input.class.php on line 26
+[30-Apr-2016 20:12:16 Europe/London] PHP Notice:  Undefined index: brand_id in /home/meethelocals/public_html/admin/lib/input.class.php on line 26
+[30-Apr-2016 20:19:07 Europe/London] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/meethelocals/public_html/admin/lib/database.class.php:84
+Stack trace:
+#0 /home/meethelocals/public_html/admin/lib/database.class.php(84): PDOStatement->execute()
+#1 /home/meethelocals/public_html/admin/core/brands.class.php(111): Database->update('UPDATE brands S...', Array)
+#2 /home/meethelocals/public_html/admin/process-edit-brand.php(6): Brands->edit_brand()
+#3 {main}
+  thrown in /home/meethelocals/public_html/admin/lib/database.class.php on line 84
+[01-May-2016 23:00:42 Europe/London] PHP Fatal error:  Can't use method return value in write context in /home/meethelocals/public_html/admin/core/admin.class.php on line 49
+[01-May-2016 23:01:52 Europe/London] PHP Fatal error:  Can't use method return value in write context in /home/meethelocals/public_html/admin/core/admin.class.php on line 50
+[01-May-2016 23:03:50 Europe/London] PHP Fatal error:  Call to undefined method Session::user() in /home/meethelocals/public_html/admin/core/admin.class.php on line 49
+[01-May-2016 23:03:52 Europe/London] PHP Fatal error:  Call to undefined method Session::user() in /home/meethelocals/public_html/admin/core/admin.class.php on line 49
+[01-May-2016 23:04:05 Europe/London] PHP Fatal error:  Call to undefined method Session::user() in /home/meethelocals/public_html/admin/core/admin.class.php on line 49
+[01-May-2016 23:04:06 Europe/London] PHP Fatal error:  Call to undefined method Session::user() in /home/meethelocals/public_html/admin/core/admin.class.php on line 49
+[01-May-2016 23:05:02 Europe/London] PHP Parse error:  syntax error, unexpected '===' (T_IS_IDENTICAL) in /home/meethelocals/public_html/admin/core/admin.class.php on line 49
+[01-May-2016 23:26:47 Europe/London] PHP Notice:  Undefined variable: general in /home/meethelocals/public_html/admin/brands.php on line 138
+[01-May-2016 23:26:47 Europe/London] PHP Fatal error:  Call to a member function limit_words() on a non-object in /home/meethelocals/public_html/admin/brands.php on line 138
+[01-May-2016 23:27:18 Europe/London] PHP Notice:  Undefined variable: general in /home/meethelocals/public_html/admin/brands.php on line 140
+[01-May-2016 23:27:18 Europe/London] PHP Fatal error:  Call to a member function limit_words() on a non-object in /home/meethelocals/public_html/admin/brands.php on line 140
+[01-May-2016 23:27:28 Europe/London] PHP Notice:  Undefined variable: general in /home/meethelocals/public_html/admin/brands.php on line 140
+[01-May-2016 23:27:28 Europe/London] PHP Fatal error:  Call to a member function limit_words() on a non-object in /home/meethelocals/public_html/admin/brands.php on line 140
+[01-May-2016 23:28:36 Europe/London] PHP Notice:  Undefined variable: general in /home/meethelocals/public_html/admin/brands.php on line 139
+[01-May-2016 23:28:36 Europe/London] PHP Fatal error:  Call to a member function limit_words() on a non-object in /home/meethelocals/public_html/admin/brands.php on line 139
+[01-May-2016 23:42:04 Europe/London] PHP Notice:  Undefined index: category in /home/meethelocals/public_html/admin/lib/input.class.php on line 26
+[06-May-2016 23:16:54 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 14
+[06-May-2016 23:16:54 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 15
+[06-May-2016 23:17:01 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 14
+[06-May-2016 23:17:01 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 15
+[06-May-2016 23:17:02 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 14
+[06-May-2016 23:17:02 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 15
+[06-May-2016 23:18:37 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 14
+[06-May-2016 23:18:37 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 15
+[06-May-2016 23:19:16 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 14
+[06-May-2016 23:19:16 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 15
+[06-May-2016 23:19:38 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 14
+[06-May-2016 23:19:38 Europe/London] PHP Notice:  Undefined variable: subscribers_status in /home/meethelocals/public_html/admin/includes/admin_navigation.php on line 15
+[06-May-2016 23:27:34 Europe/London] PHP Notice:  Undefined index: category in /home/meethelocals/public_html/admin/lib/input.class.php on line 26

@@ -1,0 +1,152 @@
+#wrap > .container {
+	padding-top: 60px; /* 40px = content starts right under nav (ie for alerts) */
+}
+.firstrow {padding-top: 0px;} /* add space below header! */
+
+.container .credit {
+	margin: 20px 0;
+}
+
+/* general settings */
+
+.borderTB {border-bottom:1px solid #CCCCCC; border-top:1px solid #CCCCCC; padding:20px 0; margin:20px 0;}
+.borderLR {border-left:1px solid #CCCCCC; border-right:1px solid #CCCCCC; padding:0 20px; margin:0 20px;}
+.borderL {border-left:1px solid #CCCCCC;  padding:0 0 0 20px; margin:0 0 0 20px;}
+
+span.unicode { font-family: 'Arial Unicode MS','Palatino Linotype','New Athena Unicode','Athena Unicode','Aisa Unicode',Code2000,'Vusillus Old Face Italic','Titus Cyberbit Basic','Georgia Greek Unicode';}
+
+#scdbox {width:200px; float:right; position:relative; border:2px solid #FF0000; padding:5px;}
+#scdbox .infotext { position:relative; width:200px; text-align:center; display:inline-block; font-size:12px; color:#FF0000;}
+/* jQuery Countdown styles 1.5.11. */
+.hasCountdown {
+	/*border: 1px solid #ccc;
+	background-color: #eee;*/
+}
+.countdown_rtl {direction: rtl;}
+.countdown_holding span {background-color: #ccc;}
+.countdown_row {clear: both;width: 100%;padding: 0px 2px;text-align: center;}
+.countdown_show1 .countdown_section { width: 98%; }
+.countdown_show2 .countdown_section { width: 48%; }
+.countdown_show3 .countdown_section { width: 32.5%; }
+.countdown_show4 .countdown_section { width: 24.5%; }
+.countdown_show5 .countdown_section { width: 19.5%; }
+.countdown_show6 .countdown_section { width: 16.25%; }
+.countdown_show7 .countdown_section { width: 14%; }
+.countdown_section {display: block;float: left;font-size: 75%;text-align: center;}
+.countdown_amount {font-size: 200%;}
+.countdown_descr {display: block;width: 100%;}
+
+/* ads */
+.adsalign {text-align:right;}
+span.adwrap img {padding:20px 0px 0px 10px; }
+.adboxtop {border-bottom:1px solid #CCCCCC;padding:0px 0 20px 0; margin:0 0 20px 0; text-align:center;}
+
+/* login form */
+.hideitem {display:block; position:absolute; left:-99999px;}
+
+
+/* new calendar */
+table.ckcal { width:100%;}
+table.ckcal th {border:1px solid #777;}
+table.ckcal td { color:#999;border-bottom:1px solid #777;border-left:1px solid #777;border-right:1px solid #777; width:14%;}
+table.ckcal td.past { background-color:#f8f8f8;}
+table.ckcal td.today { background-color:#FFFFCC;}
+table.ckcal td div.square { position:relative; top:0; left:0;height: 4em;}
+table.ckcal td a.seemore { display:block;height: 4em; text-decoration:none; /*height:25px; text-align:right;*/} 
+table.ckcal td span.caldatenumber { display:block; position:absolute; top:0px; right:2px; /*height:25px; text-align:right;*/}
+table.ckcal td span.badgebox { position:relative; top:10px; left:3px; /*height:25px; text-align:right;*/}
+table.ckcal td.weekend {color:#CDCDCD;} 
+table.ckcal tr.datedata td {padding:20px 20px 1px 20px;}
+/* new bookings list */
+.newbookingrow, .currentbookingrow {padding:10px; background-color:#fff; border:1px solid #ccc; border-radius:4px; margin-bottom:20px;}
+.newbookingrow form, .currentbookingrow form {margin-bottom:0px;}
+#newjobbuttons input.btn[type="submit"], #newjobbuttons input.btn[type="button"] {margin:0 10px 10px 0;} /* , #currentjobbuttons input.btn[type="submit"] */
+#currentjobbuttons input.btn[type="submit"], #currentjobbuttons input.btn[type="button"] {margin:0 10px 10px 0;}
+.detailscol1 { float:left; width:150px; padding-bottom:10px;}
+.detailscol2 { padding-bottom:10px; margin-left:150px}
+
+
+
+#bookinghistory div.label {display:block; margin-bottom:10px;}
+
+.alert form {margin:0;}
+.form-horizontal .control-group-one {margin:0;} /* only works if one row... */
+.form-horizontal h4 {}
+.help-block, .help-inline {color:#999999; font-size:0.9em;}
+.form-horizontal .input-block {display:block; margin-bottom:10px;}
+.required {color:#FF0000;}
+.control-group .controls input, .control-group .controls select  {margin-bottom:6px;}
+.jPicker { left: 2px; position: relative; top: -5px;}
+.cropbox {border-bottom: 10px solid #FFFFFF; border-right: 20px solid #FFFFFF; float: left;}
+.inline {display:inline;}
+.input-prepend textarea {border-radius: 0px 4px 4px 4px;}
+
+#infobox {background-color:red;padding-top: 40px;}
+
+#footer {padding-top:40px; }
+#footer .container {border-top:1px solid #CCCCCC;padding-top:20px; }
+#footer .flagbox { display:inline-block; padding:0 20px 10px 0;}
+#footer .flagbox a { text-decoration:none;}
+
+/* Tablet Layout: 768px. */
+@media (min-width: 768px) and (max-width: 979px) {
+	#wrap > .container { padding-top: 0px; }
+	#infobox {background-color:blue;}
+	
+	
+	
+}
+/* Wide Mobile Layout: <768px. */
+@media (max-width: 767px) {
+	.firstrow {padding-top: 0px;}
+	#wrap > .container { padding-top: 0px; }
+	#infobox {background-color:green;}
+	span.adwrap img {padding:20px 10px 0px 0;}
+	.adsalign {text-align:left;}
+	
+}
+/* Mobile Layout: <481px. */
+@media (max-width: 480px) { 
+	.firstrow {padding-top: 0px;}
+	#wrap > .container { padding-top: 0px; }
+	#infobox {background-color:yellow;}
+	span.adwrap img {padding:20px 10px 0px 0;}
+	.adsalign {text-align:left;}
+	.detailscol1 { width:85px;}
+	.detailscol2 { margin-left:85px}
+}
+
+
+.fancybox-custom .fancybox-skin {
+	box-shadow: 0 0 50px #222;
+}
+
+.cancelled {
+	background-color: #F8E0E0;
+}
+
+.accepted {
+	background-color: #DA81F5;
+}
+
+.today {
+	background-color: #E0F8E6;
+}
+
+.new {
+	background-color: #F7F8E0;
+}
+
+.completed {
+	background-color: #D8D8D8;
+}
+
+.declined {
+	background-color: #E0ECF8;
+}
+
+.agenda {
+	text-align:center;
+	display:inline;
+	padding:10px;
+}

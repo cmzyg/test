@@ -1,0 +1,3 @@
+.incorrect-login { color: red !important; text-align: center; }
+body.login { background: #f4f4f4; margin: 15px 0px; padding-bottom: 50px; }
+h1 a { background: url("") no-repeat top center !important; width: 100% !important;}
